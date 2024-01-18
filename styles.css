@@ -1,0 +1,75 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(143, 203, 221);
+    text-align: center;
+    background-image: url('images/food-bg.jpeg');
+}
+
+.heading {
+    font-weight: 800;
+    font-size:400%;
+    background-color: black;
+    color: white;
+    width: 50%;
+    border-radius: 10%;
+
+}
+
+.heading.main{
+    margin-left: 5%;
+}
+
+.margin-25{
+    margin-left: 25%;
+}
+
+#odin { 
+    display: inline-flex;
+    align-items: center;
+    width: 50%;
+}
+
+.list {
+    display: inline-block;
+    text-align: left;
+}
+
+.list .items {
+    margin-bottom: 20%;
+}
+
+.image-circular {
+    width: 20%;
+    height: auto;
+    border-radius: 60%;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    opacity: 95%;
+}
+
+.image-circular.image-odin {
+    width: 30%;   
+    margin-left: 5%;
+}
+
+.div-content {
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+    width: 50%;
+    height: auto;
+    margin-top: 2%;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+
+a:hover, a:active {
+    background-color: red;
+  }
